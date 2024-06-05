@@ -1,0 +1,38 @@
+name: card_animation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/vector/
+    - assets/images/raster/
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi/Satoshi-Regular.otf
+        - asset: assets/fonts/Satoshi/Satoshi-Light.otf
+          weight: 300
+        - asset: assets/fonts/Satoshi/Satoshi-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Satoshi/Satoshi-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Satoshi/Satoshi-Black.otf
+          weight: 900
